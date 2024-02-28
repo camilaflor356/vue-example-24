@@ -13,6 +13,9 @@ export default {
         }
     },
     components: { NewsItemFooter }
+//2a
+//2b news item footer
+//2c News.vue, line 80 (repeats in data())
 }
 </script>
 
