@@ -17,8 +17,8 @@ export default {
             articles: [
                 {
                     imageUrl: "https://images2.minutemediacdn.com/image/upload/c_crop,w_1566,h_880,x_0,y_36/c_fill,w_2160,ar_16:9,f_auto,q_auto,g_auto/images%2FvoltaxMediaLibrary%2Fmmsport%2F90min_en_international_web%2F01hqqjyccm1peyq227pt.png",
-                    title: "INEOS 'surprised' Man Utd didn't consider signing Tino Livramento",
-                    gmtTime: "2024-02-28T6:30:00.000Z",
+                    title: "INEOS Man Utd didnt consider signing Tino Livramento",
+                    gmtTime: "2024-02-28T06:30:00.000Z",
                     source: "FotMob",
                     lead: "New Manchester United shareholders INEOS were surprised the club did not make a play to sign Tino Livramento before his move to Newcastle United last summer, 90min understands.",
                     sourceIconUrl: "https://images2.minutemediacdn.com/image/upload/c_crop,w_1566,h_880,x_0,y_36/c_fill,w_2160,ar_16:9,f_auto,q_auto,g_auto/images%2FvoltaxMediaLibrary%2Fmmsport%2F90min_en_international_web%2F01hqqjyccm1peyq227pt.png",
@@ -32,19 +32,19 @@ export default {
                     lead: "Amanda Staveley asked the Insolvency and Companies Court to set aside a demand served by Victor Restis in May last year.",
                     sourceIconUrl: "https://images.performgroup.com/di/library/omnisport/5b/98/2_72303704.jpg?t=-193833667&w=1200&h=630",
                     pageURL: "https://www.fotmob.com/news/xj9v4rc16un1va0zrsbcdh5z-newcastle-united-co-owner-challenges-36m-bankruptcy-petition-court"
-                },
+                 },
                 {
-                    imageUrl: "https://images.performgroup.com/di/library/omnisport/5b/98/2_72303704.jpg?t=-193833667&w=1200&h=630",
-                    title: "Pep Guardiola hails ‘unbelievable’ Erling Haaland goalscoring record",
+                    imageUrl: "https://images.performgroup.com/di/library/omnisport/8d/8/2_75440707.jpg?t=-220835411&w=1200&h=630",
+                    title: "Pep Guardiola hails 'unbelievable' Erling Haaland goalscoring record",
                     gmtTime: "2024-02-19T12:47:00.000Z",
                     source: "FotMob",
                     lead: "Amanda Staveley asked the Insolvency and Companies Court to set aside a demand served by Victor Restis in May last year.",
-                    sourceIconUrl: "https://images.performgroup.com/di/library/omnisport/5b/98/2_72303704.jpg?t=-193833667&w=1200&h=630",
-                    pageURL: "https://www.fotmob.com/news/xj9v4rc16un1va0zrsbcdh5z-newcastle-united-co-owner-challenges-36m-bankruptcy-petition-court"
+                    sourceIconUrl: "https://images.performgroup.com/di/library/omnisport/8d/8/2_75440707.jpg?t=-220835411&w=1200&h=630",
+                    pageURL: "https://www.fotmob.com/news/1iutcondqtpkv1py3odlsynnnf-pep-guardiola-hails-unbelievable-erling-haaland-goalscoring-record",
                 },
                 {
                     imageUrl: "https://latest.fotmob.com/wp-content/uploads/2024/02/Covers_This-Is-Anfield-2802-1.png",
-                    title: "Liverpool’s kids show the future really is bright after Jurgen Klopp",
+                    title: "Liverpools kids show the future really is bright after Jurgen Klopp",
                     gmtTime: "2024-02-19T03:34:00.000Z",
                     source: "FotMob",
                     lead: "When Jürgen Klopp first arrived at Liverpool he spoke of his intention to use the club’s under-23s side similarly to the way European sides in Germany and Spain have second teams.",

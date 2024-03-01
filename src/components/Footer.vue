@@ -9,6 +9,7 @@
         </div>
         <div>Fotmob is the essential football app.</div>
         <div class="footer-links">
+            <a href="/home">Home</a>
             <a href="/matches">Matches</a>
             <a href="/news">News</a>
             <a href="/about us">About Us</a>
