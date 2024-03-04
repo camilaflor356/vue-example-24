@@ -1,6 +1,7 @@
 <script>
 import Header from '../Header.vue'
 import Footer from '../Footer.vue'
+import Cart from '../Cart.vue'
 export default {
     data() {
         return {
@@ -10,18 +11,19 @@ export default {
     }, 
     components: {
         Header,
-        Footer
+        Footer,
+        Cart
     }
 }
 </script>
 
 <template>
     <header class="HomeHeader">
-        <h1>HomePage</h1>
+        <h1>Home Page</h1>
     </header>
     <div class="backgroundWithImage">
         <div class="description">
-            <p>Careers</p>
+            <p>Home</p>
             <h1>{{ description }}</h1>
         </div>
     </div>
