@@ -1,7 +1,8 @@
 <script>
-import Header from './Header.vue'
-import Footer from './Footer.vue'
-import productItem from './productItem.vue'
+import Header from '../Header.vue'
+import Footer from '../Footer.vue'
+import productItem from '../productItem.vue'
+//import addCart from './productItem.vue'
 export default {
     data() {
         return {
@@ -40,6 +41,7 @@ export default {
         Header,
         Footer,
         productItem
+        //addCart
     }
 }
 
@@ -52,7 +54,9 @@ export default {
 
     <div>
         <div class="cartList">
-            <productItem v-for="productItem in CartItem" :productItem="productItem" :key="productItem.productName" />
+            <productItem v-for="productItem in CartItem" :productItem="productItem" :key="productItem.productName"/>
+            <!--- <addCart @response="(msg) => childMsg = msg" />
+            <p>{{ childMsg }}</p> -->
         </div>
     </div>
 

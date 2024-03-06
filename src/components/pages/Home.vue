@@ -1,7 +1,7 @@
 <script>
 import Header from '../Header.vue'
 import Footer from '../Footer.vue'
-import Cart from '../Cart.vue'
+import Cart from './Cart.vue'
 export default {
     data() {
         return {
@@ -54,4 +54,4 @@ export default {
 .description * {
     margin: 0;
 }
-</style>
+</style>./Cart.vue

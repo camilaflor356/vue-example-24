@@ -20,6 +20,7 @@ export default {
             <!-- 5. change all href sources to start with /#/. You will have to do it for dropdown as well. -->
             <a href="/#/news">News</a>
             <a href="/#/home">Home</a>
+            <a href="/#/cart">Cart</a>
             <Dropdown :options="options" text="About Us">
             </Dropdown>
         </div>
