@@ -6,8 +6,6 @@ import productItem from '../productItem.vue'
 export default {
     data() {
         return {
-            description: "Text text text",
-            copy: "This is copy. It's a string. Paragraph paragraph paragraph.",
             CartItem: [
                 {
                     imageUrl: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/770437/01/fnd/PNA/fmt/png/Manchester-City-23/24-Men's-Authentic-Home-Jersey",
