@@ -2,7 +2,7 @@
 import NewsItem from "../widgets/NewsItem.vue";
 import NewsItemFooter from "../widgets/NewsItemFooter.vue";
 import TimeStamp from "../widgets/TimeStamp.vue";
-import axios from '..../node_modules/axios';
+import axios from '/node_modules/axios';
 export default {
     data() {
         return {
@@ -57,13 +57,14 @@ export default {
     },
     components: {
         NewsItem,
-        TimeStamp, 
+        TimeStamp,
         NewsItemFooter
     },
-    method: {
+    methods: {
         functionName() {
-        axios.get(SOME_URL).then(response => {
-               console.log(response.data); // do you want to do something else here? 
+            console.log('hi')
+        axios.get("https://fotmob-backend.onrender.com/articles").then(response => {
+               console.log(response.data); // set articles equal to response.data 
            })
         }
     }
@@ -74,7 +75,7 @@ export default {
 <template>
     <header class="WorldNewsHeader">
         <h1>World News</h1>
-        <btn @onclick="funtionName"> </btn>
+        <button @click="functionName"> hi</button>
     </header>
     <div class="layout">
         <div class="featuredArticle">
