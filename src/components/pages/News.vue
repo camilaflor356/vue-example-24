@@ -64,7 +64,7 @@ export default {
         functionName() {
             console.log('hi')
         axios.get("https://fotmob-backend.onrender.com/articles").then(response => {
-               articles = response.data; 
+               this.articles = response.data; 
            })
         }
     }
