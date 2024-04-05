@@ -64,7 +64,7 @@ export default {
         functionName() {
             console.log('hi')
         axios.get("https://fotmob-backend.onrender.com/articles").then(response => {
-               console.log(response.data); // set articles equal to response.data 
+               artciles = response.data; 
            })
         }
     }
@@ -75,7 +75,8 @@ export default {
 <template>
     <header class="WorldNewsHeader">
         <h1>World News</h1>
-        <button @click="functionName"> hi</button>
+        <br><br/>
+            <button @click="functionName"> hi</button>
     </header>
     <div class="layout">
         <div class="featuredArticle">
